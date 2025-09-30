@@ -22,3 +22,14 @@ GOOGLE_CLIENT_SECRET=""
 RESEND_API_KEY=""
 
 ```
+## Create migration files using prisma
+
+```
+npx prisma migrate dev --name init
+npx prisma db push
+
+
+```
+
+# Seeding DB / cleaning DB
+
